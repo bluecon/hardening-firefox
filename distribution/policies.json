@@ -28,8 +28,7 @@
 		"EncryptedMediaExtensions": { "Enabled": false, "Locked": true },
 		"NetworkPrediction": false,
 		"Permissions": { "Camera": { "BlockNewRequests": true, "Locked": true }, "Microphone": { "BlockNewRequests": true, "Locked": true }, "Location": { "BlockNewRequests": true, "Locked": true }, "Notifications": { "BlockNewRequests": true, "Locked": true }, "Autoplay": { "Default": "block-audio-video" } },
-		"EnableTrackingProtection": { "Fingerprinting": true},
-		"EnableTrackingProtection": { "Cryptomining": true},
+		"EnableTrackingProtection": { "Value": true, "Locked": true, "Fingerprinting": true, "Cryptomining": true },
 		"SanitizeOnShutdown": { "Cache": false, "Cookies": false, "Downloads": false, "FormData": false,
 		"History": false, "Sessions": false, "SiteSettings": false, "OfflineApps": false, "Locked": true},
 	"Preferences": {
