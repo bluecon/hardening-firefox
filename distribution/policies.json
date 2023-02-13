@@ -1,0 +1,40 @@
+{
+	"policies": {
+		"DisableFirefoxAccounts": true,
+		"DisablePocket": true,
+		"DisableAppUpdate": true,
+		"DontCheckDefaultBrowser": true,
+		"OfferToSaveLogins": false,
+		"SSLVersionMin": "tls1.2",
+		"ExtensionUpdate": true,
+		"DisableFormHistory": true,
+		"PasswordManagerEnabled": false,
+		"PopupBlocking": { "Default": true, "Locked": true},
+		"InstallAddonsPermission": { "Default": true},
+		"DisableTelemetry": true,
+		"DisableDeveloperTools": true,
+		"DisableForgetButton": true,
+		"DisablePrivateBrowsing": true,
+		"DisabledCiphers": { "TLS_RSA_WITH_3DES_EDE_CBC_SHA": true },
+		"SearchSuggestEnabled": false,
+		"UserMessaging": { "ExtensionRecommendations": false },
+		"FirefoxHome": { "Search": false, "TopSites": false, "SponsoredTopSites": false, "Pocket": false, "SponsoredPocket": false, "Highlights": false, "Snippets": false, "locked": true },
+		"DNSOverHTTPS": { "Enabled": false },
+		"DisableFeedbackCommands": true,
+		"EncryptedMediaExtensions": { "Enabled": false, "Locked": true },
+		"NetworkPrediction": false,
+		"Permissions": { "Autoplay": { "Default": "block-audio-video" } },
+		"EnableTrackingProtection": { "Fingerprinting": true},
+		"EnableTrackingProtection": { "Cryptomining": true},
+		"SanitizeOnShutdown": { "Cache": false, "Cookies": false, "Downloads": false, "FormData": false,
+		"History": false, "Sessions": false, "SiteSettings": false, "OfflineApps": false, "Locked": true},
+	"Preferences": {
+		"security.default_personal_cert": { "Value": "Ask Every Time", "Status": "locked"},
+		"browser.search.update": { "Value": false, "Status": "locked"},
+		"browser.contentblocking.category": { "Value": "strict", "Status": "locked"},
+		"extensions.htmlaboutaddons.recommendations.enabled": { "Value": false, "Status": "locked"},
+		"dom.disable_window_flip": { "Value": true, "Status": "locked" },
+		"dom.disable_window_move_resize": { "Value": true, "Status": "locked" }
+	}
+	}
+}
