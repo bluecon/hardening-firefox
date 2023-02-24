@@ -12,4 +12,16 @@ hardening-firefox is pre-config of Mozilla Firefox browser to ensure best pratic
 6. Check the preferences in your browser.
 7. Done.
 
+# Recommendations
+
+Plugins:
+
+- Cookie AutoDelete
+- Decentraleyes
+- FoxProxy Standard
+- HTTPS Everywhere
+- NoScript
+- uBlock Origin
+
+If you have any recommendations, please let it me know.
 
