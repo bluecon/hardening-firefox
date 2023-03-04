@@ -3,7 +3,7 @@
         "CaptivePortal": true,
         "DisableFirefoxAccounts": true,
 		"DisablePocket": true,
-		"DisableAppUpdate": true,
+		"DisableAppUpdate": false,
 		"DontCheckDefaultBrowser": true,
         "OfferToSaveLoginsDefault": false,
 		"OfferToSaveLogins": false,
