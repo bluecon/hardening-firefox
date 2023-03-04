@@ -1,4 +1,4 @@
-pref("app.update.auto",                     false);
+pref("app.update.auto",                     true);
 pref("app.update.enabled",                  true);
 pref("app.update.autoInstallEnabled",       true);
 pref("general.smoothScroll",                true);
